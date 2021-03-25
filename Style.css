@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: url('Imagem/6gw8voR.png');
+    background-color: #000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #404040;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #404040;
+  }
+  
+  .page-logo {
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .page-logo:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  
+  .Clogo1 {
+      text-align: center;
+  }
+  .Clogo2 {
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: center;
+    border-style: outset;
+    border-color: #ffe7e7;
+  }
+  .Clogo2:hover{
+    
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  
+  .cotacao {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+  }
+
+  input{
+    height: 30px;
+    text-align: center;
+  }
+  #inputType,#resultType{
+    width: 150px;
+    margin-left: px;
+    color: #ffffff;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #ffffff;
+
+  }
+  #resultType{
+    margin-left: 15%;
+  }
+
+  output{
+    height: 30px;
+  }
+  
+  .optional {
+    color: #8C8C8C;
+    margin: 0 0 5px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #404040;
+    
+  }
+  
+  .symbol {
+    color: #8C8C8C;
+    margin: 0 0 5px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+  }
+span{
+  color: white;
+  font-weight: bolder;
+}
+  select {
+    border:0;
+    background: rgb(104, 104, 104);
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding:  14px 10px;
+    width: 160px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  
+  input {
+    border:0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding:  14px 10px;
+    width: 160px;
+    outline: none;
+    color: #ffffff;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+
+  h1 {
+    color: #ffe7e7;
+  }
